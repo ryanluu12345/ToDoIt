@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>ToDoIt </title>
+<meta charset="UTF-8"/>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!-- Leaving some room for the links to css !-->
+</head>
+<body>
+<h1> Take a look at the upcoming tasks of your group </h1>
+    
+    {% for task in task_history %}
+        
+        <div>
+        
+            
+            Task: <br>
+            {{task["description"]}}<br>
+            
+            Person Responsible: <br>
+            {{task["person_responsible"]}}<br>
+            
+            Due Date: <br>
+            {{task["due_date"]}} <br>
+             
+                
+        </div>
+        
+    {% endfor %}
+    
+    
+</body>
+    
+
+    
+</html>
+
+
+
+
+
+
+
+
