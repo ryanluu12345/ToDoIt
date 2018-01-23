@@ -24,16 +24,16 @@
 6. Inside of Procfile enter this line: "web gunicorn app:app". This command will start our server through gunicorn.
 
 7. Create a new file called "requirements.txt" if there is not a file named that already. Inside of it, place these dependencies with a line break in between each one: 
-flask
-gunicorn
-twilio
+-flask
+-gunicorn
+-twilio
 
 8. In terminal enter the commands as follows:
-git init
-git add --all
-git commmit -m "init"
-heroku apps:create <replace_with_your_app_name>
-git push heroku master
+- git init
+- git add --all
+- git commmit -m "init"
+- heroku apps:create <replace_with_your_app_name>
+- git push heroku master
 
 Explanation: 
 - "git init" initializes the folder you are in as a git folder/directory, meaning that is eligible for version control 
