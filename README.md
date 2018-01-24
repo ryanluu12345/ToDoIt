@@ -42,3 +42,6 @@ Explanation:
 - "heroku apps:create" is used to create a heroku application
 - "git push heroku master" is used to send your application to heroku so that it can build your app and deploy it
 
+Check out the finished product here:
+http://to-just-do-it.herokuapp.com/add_tasks
+
